@@ -1,0 +1,8 @@
+setup.py
+gazebo_map_creator_interface/__init__.py
+gazebo_map_creator_interface.egg-info/PKG-INFO
+gazebo_map_creator_interface.egg-info/SOURCES.txt
+gazebo_map_creator_interface.egg-info/dependency_links.txt
+gazebo_map_creator_interface.egg-info/top_level.txt
+gazebo_map_creator_interface/srv/__init__.py
+gazebo_map_creator_interface/srv/_map_request.py

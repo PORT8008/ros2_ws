@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/build/my_custom_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python /usr/bin/cmake /home/student/ros2_ws/src/my_custom_launch -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/my_custom_launch
+[0.044s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.286s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[0.286s]   asked CMake to find a package configuration file provided by "launch", but
+[0.286s]   CMake did not find one.
+[0.286s] 
+[0.286s]   Could not find a package configuration file provided by "launch" with any
+[0.286s]   of the following names:
+[0.287s] 
+[0.287s]     launchConfig.cmake
+[0.287s]     launch-config.cmake
+[0.287s] 
+[0.287s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[0.287s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[0.287s]   provides a separate development package or SDK, be sure it has been
+[0.287s]   installed.
+[0.288s] 
+[0.288s] [0m
+[0.288s] -- Configuring incomplete, errors occurred!
+[0.288s] See also "/home/student/ros2_ws/build/my_custom_launch/CMakeFiles/CMakeOutput.log".
+[0.292s] Invoked command in '/home/student/ros2_ws/build/my_custom_launch' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python /usr/bin/cmake /home/student/ros2_ws/src/my_custom_launch -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/my_custom_launch
