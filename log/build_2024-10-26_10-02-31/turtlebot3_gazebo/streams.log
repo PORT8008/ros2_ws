@@ -1,0 +1,186 @@
+[0.042s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.243s] [ 25%] Built target turtlebot3_drive
+[0.290s] [ 50%] Built target obstacles
+[0.314s] [ 75%] Built target obstacle2
+[0.340s] [100%] Built target obstacle1
+[0.407s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.844s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_gazebo
+[0.865s] -- Install configuration: ""
+[0.865s] -- Execute custom install script
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/SmartFactory.launch.py
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[0.865s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[0.866s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[0.867s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[0.867s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/materials/scripts/model.material
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/materials/textures/Forklift_Forklift_BaseColor.png
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/materials/textures/Forklift_Forklift_Metallic.png
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/materials/textures/Forklift_Forklift_Normal.png
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/materials/textures/Forklift_Forklift_Roughness.png
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/meshes/MecanumLift.dae
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/meshes/mecanum_wheel_left.STL
+[0.868s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/meshes/mecanum_wheel_right.STL
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/meshes/wheel_left.dae
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/meshes/wheel_right.dae
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/model.config
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/model.sdf
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/0.png
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/1.png
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/2.png
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/3.png
+[0.869s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/4.png
+[0.870s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/5.png
+[0.870s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Mecanum lift/thumbnails/6.png
+[0.870s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/materials/textures/pickup_diffuse.jpg
+[0.870s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/materials/textures/wheels2.jpg
+[0.871s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/meshes/pickup.dae
+[0.872s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/metadata.pbtxt
+[0.881s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/model.config
+[0.881s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/model.sdf
+[0.881s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/thumbnails/1.png
+[0.882s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/thumbnails/2.png
+[0.882s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/thumbnails/3.png
+[0.882s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/thumbnails/4.png
+[0.882s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Pickup/thumbnails/5.png
+[0.882s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/materials/textures/DepotEnvMap.dds
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/materials/textures/Table_Roughness.png
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/materials/textures/Table_Table_BaseColor.png
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/materials/textures/Table_Table_Normal.png
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/meshes/Table.dae
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/model.config
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/model.sdf
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/0.png
+[0.883s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/1.png
+[0.884s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/2.png
+[0.884s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/3.png
+[0.884s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/4.png
+[0.884s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/5.png
+[0.884s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/Reflective table/thumbnails/6.png
+[0.886s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[0.886s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/metadata.pbtxt
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/model.config
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[0.887s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/thumbnails/1.png
+[0.888s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/thumbnails/2.png
+[0.888s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/thumbnails/3.png
+[0.888s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/thumbnails/4.png
+[0.888s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/aws_robomaker_warehouse_PalletJackB_01/thumbnails/5.png
+[0.888s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/materials/textures/cardboard_box.png
+[0.890s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/meshes/cardboard_box.dae
+[0.904s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/model.config
+[0.918s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/model.sdf
+[0.933s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/thumbnails/1.png
+[0.948s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/thumbnails/2.png
+[0.962s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/thumbnails/3.png
+[0.976s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/thumbnails/4.png
+[0.992s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/cardboard box/thumbnails/5.png
+[1.008s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/materials/textures/Construction_Cone_Diffuse.png
+[1.022s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/meshes/construction_cone.dae
+[1.039s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/model-1_3.sdf
+[1.052s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/model-1_4.sdf
+[1.066s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/model.config
+[1.081s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/constructioncone/model.sdf
+[1.097s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/shelf/meshes/Box_paper_04_1_Base_Color.png
+[1.098s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/shelf/meshes/shelf_big_movai.dae
+[1.098s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/shelf/model.config
+[1.099s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/shelf/model.sdf
+[1.099s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/shelf/thumbnails/1.png
+[1.099s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/eyebrow001-unmodified.png
+[1.114s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/eyebrow001.png
+[1.140s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/green_eye.png
+[1.166s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/jeans01_normals.png
+[1.175s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/jeans_basic_diffuse.png
+[1.176s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/male02_diffuse_black-unmodified.png
+[1.185s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/male02_diffuse_black.png
+[1.199s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/teeth.png
+[1.214s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/tshirt02_normals.png
+[1.232s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/tshirt02_texture.png
+[1.239s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/materials/textures/young_lightskinned_male_diffuse.png
+[1.251s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/meshes/standing.dae
+[1.266s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/model.config
+[1.281s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/model.sdf
+[1.292s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/thumbnails/1.png
+[1.308s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/thumbnails/2.png
+[1.322s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/thumbnails/3.png
+[1.337s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/thumbnails/4.png
+[1.351s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_SmartFactory_world/standing person/thumbnails/5.png
+[1.365s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[1.365s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[1.366s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[1.366s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[1.366s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[1.366s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[1.366s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[1.367s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[1.367s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[1.367s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[1.367s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[1.367s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[1.368s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[1.369s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[1.369s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[1.369s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[1.369s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[1.369s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[1.370s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[1.370s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[1.370s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[1.370s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[1.371s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[1.372s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[1.372s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[1.372s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[1.372s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[1.373s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[1.373s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[1.374s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[1.374s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[1.374s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[1.374s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[1.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/SmartFactory.world
+[1.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[1.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[1.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[1.376s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[1.376s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[1.376s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[1.378s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[1.378s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[1.378s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[1.378s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[1.378s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[1.379s] -- Symlinking: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[1.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[1.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[1.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[1.394s] -- Up-to-date symlink: /home/student/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[1.399s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_gazebo

@@ -1,3 +1,1 @@
-# Constants
-# Request
-uint8 id
+/home/student/ros2_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg

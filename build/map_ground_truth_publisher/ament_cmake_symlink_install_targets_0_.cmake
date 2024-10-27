@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/ros2_ws/build/map_ground_truth_publisher/map_publisher_node" "TARGETS" "map_publisher_node" "DESTINATION" "lib/map_ground_truth_publisher")

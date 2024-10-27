@@ -1,2 +1,1 @@
-from turtlebot3_msgs.srv._dqn import Dqn  # noqa: F401
-from turtlebot3_msgs.srv._sound import Sound  # noqa: F401
+/home/student/ros2_ws/build/turtlebot3_msgs/rosidl_generator_py/turtlebot3_msgs/srv/__init__.py

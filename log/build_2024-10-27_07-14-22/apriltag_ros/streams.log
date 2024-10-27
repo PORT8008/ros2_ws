@@ -1,0 +1,33 @@
+[0.414s] Invoking command in '/home/student/ros2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/apriltag_ros -- -j8 -l8
+[0.506s] [ 20%] Built target tags
+[0.552s] [ 40%] Built target apriltag_node
+[0.598s] [ 60%] Built target conversion
+[0.639s] [ 80%] Built target pose_estimation
+[0.685s] [100%] Built target AprilTagNode
+[0.717s] Invoked command in '/home/student/ros2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/apriltag_ros -- -j8 -l8
+[0.788s] Invoking command in '/home/student/ros2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/apriltag_ros
+[0.802s] -- Install configuration: ""
+[0.803s] -- Execute custom install script
+[0.803s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[0.804s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[0.804s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[0.804s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[0.804s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[0.805s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/v4l2_36h11.launch.yml
+[0.805s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[0.806s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[0.806s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[0.806s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[0.806s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[0.807s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[0.807s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[0.807s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[0.808s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[0.808s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[0.808s] -- Symlinking: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[0.821s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[0.821s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[0.821s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[0.822s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[0.822s] -- Up-to-date symlink: /home/student/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[0.825s] Invoked command in '/home/student/ros2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/apriltag_ros

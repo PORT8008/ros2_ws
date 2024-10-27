@@ -1,2 +1,1 @@
-
-bool success 
+/home/student/ros2_ws/build/gazebo_map_creator_interface/rosidl_cmake/srv/MapRequest_Response.msg

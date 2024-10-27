@@ -1,4 +1,1 @@
-srv/MapRequest.idl
-srv/MapRequest.srv
-srv/MapRequest_Request.msg
-srv/MapRequest_Response.msg
+/home/student/ros2_ws/build/gazebo_map_creator_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/gazebo_map_creator_interface

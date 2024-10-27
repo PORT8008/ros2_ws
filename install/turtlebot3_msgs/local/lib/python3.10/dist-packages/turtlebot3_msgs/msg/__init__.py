@@ -1,3 +1,1 @@
-from turtlebot3_msgs.msg._sensor_state import SensorState  # noqa: F401
-from turtlebot3_msgs.msg._sound import Sound  # noqa: F401
-from turtlebot3_msgs.msg._version_info import VersionInfo  # noqa: F401
+/home/student/ros2_ws/build/turtlebot3_msgs/rosidl_generator_py/turtlebot3_msgs/msg/__init__.py

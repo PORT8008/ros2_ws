@@ -1,1 +1,1 @@
-from gazebo_map_creator_interface.srv._map_request import MapRequest  # noqa: F401
+/home/student/ros2_ws/build/gazebo_map_creator_interface/rosidl_generator_py/gazebo_map_creator_interface/srv/__init__.py

@@ -1,3 +1,1 @@
-# Messages
-uint8 id
-int32 position
+/home/student/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

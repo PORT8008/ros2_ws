@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/map_ground_truth_publisher/ament_cmake_core/map_ground_truth_publisherConfig.cmake
