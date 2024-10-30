@@ -1,0 +1,39 @@
+[0.042s] Invoking command in '/home/student/ros2_ws/build/global_controller_single_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/global_controller_single_robot -- -j8 -l8
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target global_controller_single_robot[0m
+[0.191s] [ 16%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/global_controller.cpp.o[0m
+[0.192s] [ 33%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/task_allocation.cpp.o[0m
+[0.194s] [ 50%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/main.cpp.o[0m
+[16.433s] [ 66%] [32m[1mLinking CXX executable global_controller_single_robot[0m
+[17.948s] [100%] Built target global_controller_single_robot
+[17.962s] Invoked command in '/home/student/ros2_ws/build/global_controller_single_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/global_controller_single_robot -- -j8 -l8
+[18.013s] Invoking command in '/home/student/ros2_ws/build/global_controller_single_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/global_controller_single_robot
+[18.023s] -- Install configuration: ""
+[18.023s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/lib/global_controller_single_robot/global_controller_single_robot
+[18.037s] -- Set runtime path of "/home/student/ros2_ws/install/global_controller_single_robot/lib/global_controller_single_robot/global_controller_single_robot" to ""
+[18.037s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch
+[18.037s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_launch.py
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_single_launch.py
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_multi_launch.py
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/map.yaml
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/turtlebot3_world_map.pgm
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/gazebo_sf_map.yaml
+[18.038s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/gazebo_sf_map.pgm
+[18.039s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/turtlebot3_world_map.yaml
+[18.039s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/map.pgm
+[18.039s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/package_run_dependencies/global_controller_single_robot
+[18.040s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/parent_prefix_path/global_controller_single_robot
+[18.040s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/ament_prefix_path.sh
+[18.040s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/ament_prefix_path.dsv
+[18.040s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/path.sh
+[18.041s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/path.dsv
+[18.041s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.bash
+[18.041s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.sh
+[18.041s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.zsh
+[18.041s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.dsv
+[18.042s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/package.dsv
+[18.042s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/packages/global_controller_single_robot
+[18.042s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/cmake/global_controller_single_robotConfig.cmake
+[18.042s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/cmake/global_controller_single_robotConfig-version.cmake
+[18.043s] -- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/package.xml
+[18.045s] Invoked command in '/home/student/ros2_ws/build/global_controller_single_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/global_controller_single_robot

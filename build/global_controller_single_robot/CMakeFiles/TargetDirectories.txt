@@ -1,0 +1,10 @@
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/global_controller_single_robot_uninstall.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/global_controller_single_robot.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/test.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/install.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/global_controller_single_robot/CMakeFiles/install/strip.dir

@@ -1,0 +1,61 @@
+[0.039s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/turtlebot3_description
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.549s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.549s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.948s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.148s] -- Configuring done
+[1.149s] -- Generating done
+[1.150s] -- Build files have been written to: /home/student/ros2_ws/build/turtlebot3_description
+[1.162s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/turtlebot3_description
+[1.166s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.284s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.407s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_description
+[1.422s] -- Install configuration: ""
+[1.423s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[1.423s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[1.430s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.443s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.456s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.501s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[1.501s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.501s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.503s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.503s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.530s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.531s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[1.531s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.541s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.543s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[1.544s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.545s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[1.545s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.545s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.552s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.552s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.553s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.553s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.554s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.557s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.557s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.557s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.559s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.559s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.559s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.559s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.560s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.560s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.561s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.561s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.561s] -- Installing: /home/student/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[2.121s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_description

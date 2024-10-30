@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/student/ros2_ws/build/map_ground_truth_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/map_ground_truth_publisher -- -j8 -l8
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target map_publisher_node[0m
+[0.199s] [100%] Built target map_publisher_node
+[0.203s] Invoked command in '/home/student/ros2_ws/build/map_ground_truth_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/map_ground_truth_publisher -- -j8 -l8
+[0.306s] Invoking command in '/home/student/ros2_ws/build/map_ground_truth_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/map_ground_truth_publisher
+[0.321s] -- Install configuration: ""
+[0.321s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/lib/map_ground_truth_publisher/map_publisher_node
+[0.328s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/ament_index/resource_index/package_run_dependencies/map_ground_truth_publisher
+[0.328s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/ament_index/resource_index/parent_prefix_path/map_ground_truth_publisher
+[0.328s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.sh
+[0.331s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.dsv
+[0.331s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.bash
+[0.331s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.sh
+[0.331s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.zsh
+[0.331s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.dsv
+[0.331s] -- Installing: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.dsv
+[0.332s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/ament_index/resource_index/packages/map_ground_truth_publisher
+[0.332s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig.cmake
+[0.332s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig-version.cmake
+[0.332s] -- Up-to-date: /home/student/ros2_ws/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.xml
+[0.349s] Invoked command in '/home/student/ros2_ws/build/map_ground_truth_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/map_ground_truth_publisher

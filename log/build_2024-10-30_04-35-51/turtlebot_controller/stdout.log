@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot_controller[0m
+[100%] Built target turtlebot_controller
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller/turtlebot_controller
+-- Set runtime path of "/home/student/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller/turtlebot_controller" to ""
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller//launch
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller//launch/turtlebot_controller_launch.py
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake
+-- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml

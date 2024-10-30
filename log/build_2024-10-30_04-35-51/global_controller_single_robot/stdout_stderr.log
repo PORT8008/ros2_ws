@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target global_controller_single_robot[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/global_controller.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/task_allocation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/global_controller_single_robot.dir/src/main.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable global_controller_single_robot[0m
+[100%] Built target global_controller_single_robot
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/lib/global_controller_single_robot/global_controller_single_robot
+-- Set runtime path of "/home/student/ros2_ws/install/global_controller_single_robot/lib/global_controller_single_robot/global_controller_single_robot" to ""
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_launch.py
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_single_launch.py
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//launch/global_controller_multi_launch.py
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/map.yaml
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/turtlebot3_world_map.pgm
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/gazebo_sf_map.yaml
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/gazebo_sf_map.pgm
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/turtlebot3_world_map.yaml
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot//map/map.pgm
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/package_run_dependencies/global_controller_single_robot
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/parent_prefix_path/global_controller_single_robot
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/environment/path.dsv
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.bash
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.sh
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/package.dsv
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/ament_index/resource_index/packages/global_controller_single_robot
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/cmake/global_controller_single_robotConfig.cmake
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/cmake/global_controller_single_robotConfig-version.cmake
+-- Installing: /home/student/ros2_ws/install/global_controller_single_robot/share/global_controller_single_robot/package.xml

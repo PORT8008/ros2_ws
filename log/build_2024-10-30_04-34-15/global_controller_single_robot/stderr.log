@@ -1,0 +1,23 @@
+In file included from [01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/task_allocation.cpp:3[m[K:
+[01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/task_allocation.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmarker_msgs/msg/marker.hpp: No such file or directory
+   10 | #include [01;31m[K"marker_msgs/msg/marker.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/global_controller_single_robot.dir/build.make:104: CMakeFiles/global_controller_single_robot.dir/src/task_allocation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/global_controller.hpp:17[m[K,
+                 from [01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/global_controller.cpp:3[m[K:
+[01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/task_allocation.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmarker_msgs/msg/marker.hpp: No such file or directory
+   10 | #include [01;31m[K"marker_msgs/msg/marker.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/global_controller.hpp:17[m[K,
+                 from [01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/main.cpp:2[m[K:
+[01m[K/home/student/ros2_ws/src/global_controller_single_robot/src/task_allocation.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmarker_msgs/msg/marker.hpp: No such file or directory
+   10 | #include [01;31m[K"marker_msgs/msg/marker.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/global_controller_single_robot.dir/build.make:76: CMakeFiles/global_controller_single_robot.dir/src/global_controller.cpp.o] Error 1
+compilation terminated.
+gmake[2]: *** [CMakeFiles/global_controller_single_robot.dir/build.make:90: CMakeFiles/global_controller_single_robot.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/global_controller_single_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

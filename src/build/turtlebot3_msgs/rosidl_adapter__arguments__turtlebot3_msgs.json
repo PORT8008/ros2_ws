@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/student/ros2_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/student/ros2_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/student/ros2_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/student/ros2_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/student/ros2_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/student/ros2_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

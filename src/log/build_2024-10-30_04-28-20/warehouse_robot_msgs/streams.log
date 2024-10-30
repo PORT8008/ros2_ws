@@ -1,0 +1,236 @@
+[0.017s] Invoking command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/warehouse_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/warehouse_robot_msgs
+[0.876s] -- The C compiler identification is GNU 11.4.0
+[1.401s] -- The CXX compiler identification is GNU 11.4.0
+[1.434s] -- Detecting C compiler ABI info
+[1.580s] -- Detecting C compiler ABI info - done
+[1.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.588s] -- Detecting C compile features
+[1.591s] -- Detecting C compile features - done
+[1.595s] -- Detecting CXX compiler ABI info
+[1.718s] -- Detecting CXX compiler ABI info - done
+[1.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.729s] -- Detecting CXX compile features
+[1.729s] -- Detecting CXX compile features - done
+[1.781s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.982s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.242s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.421s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.452s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.492s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.852s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.870s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.114s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.150s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.264s] -- Looking for pthread.h
+[3.432s] -- Looking for pthread.h - found
+[3.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.526s] -- Found Threads: TRUE  
+[3.698s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.793s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.195s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.995s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.006s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.054s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.054s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.054s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.078s] -- Found PythonExtra: .so  
+[5.180s] -- Configuring done
+[5.240s] -- Generating done
+[5.244s] -- Build files have been written to: /home/student/ros2_ws/src/build/warehouse_robot_msgs
+[5.259s] Invoked command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/warehouse_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/warehouse_robot_msgs
+[5.261s] Invoking command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/warehouse_robot_msgs -- -j8 -l8
+[5.315s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.327s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.337s] [  6%] Built target ament_cmake_python_copy_warehouse_robot_msgs
+[5.628s] running egg_info
+[5.629s] creating warehouse_robot_msgs.egg-info
+[5.629s] writing warehouse_robot_msgs.egg-info/PKG-INFO
+[5.629s] writing dependency_links to warehouse_robot_msgs.egg-info/dependency_links.txt
+[5.629s] writing top-level names to warehouse_robot_msgs.egg-info/top_level.txt
+[5.630s] writing manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'
+[5.637s] reading manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'
+[5.637s] writing manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'
+[5.673s] [  6%] Built target ament_cmake_python_build_warehouse_robot_msgs_egg
+[5.674s] [  6%] Built target warehouse_robot_msgs__cpp
+[5.687s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.688s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.688s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.689s] [ 19%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/warehouse_robot_msgs/msg/detail/robot_data__functions.c.o[0m
+[5.959s] [ 22%] [32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_robot_msgs/msg/robot_data__type_support.cpp.o[0m
+[5.961s] [ 25%] [32m[1mLinking C shared library libwarehouse_robot_msgs__rosidl_generator_c.so[0m
+[5.976s] [ 29%] [32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_robot_msgs/msg/detail/robot_data__type_support.cpp.o[0m
+[5.998s] [ 32%] [32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_robot_msgs/msg/detail/dds_fastrtps/robot_data__type_support.cpp.o[0m
+[6.041s] [ 32%] Built target warehouse_robot_msgs__rosidl_generator_c
+[6.056s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.056s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.056s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.363s] [ 45%] [32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_robot_msgs/msg/robot_data__type_support.cpp.o[0m
+[6.413s] [ 48%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_robot_msgs/msg/detail/robot_data__type_support.c.o[0m
+[6.416s] [ 51%] [32m[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_c.so[0m
+[6.453s] [ 54%] [32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_robot_msgs/msg/detail/robot_data__type_support_c.cpp.o[0m
+[6.471s] [ 58%] [32m[1mLinking C shared library libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.502s] [ 58%] Built target warehouse_robot_msgs__rosidl_typesupport_c
+[6.508s] [ 61%] [32m[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_cpp.so[0m
+[6.529s] [ 61%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c
+[6.568s] [ 61%] Built target warehouse_robot_msgs__rosidl_typesupport_cpp
+[6.683s] [ 64%] [32m[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.695s] [ 67%] [32m[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.791s] [ 67%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_cpp
+[6.802s] [ 67%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[6.817s] [ 70%] [32m[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.913s] [ 70%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c
+[6.941s] [ 70%] Built target warehouse_robot_msgs
+[6.967s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.368s] [ 74%] Built target warehouse_robot_msgs__py
+[7.394s] [ 77%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/warehouse_robot_msgs/msg/_robot_data_s.c.o[0m
+[7.678s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/libwarehouse_robot_msgs__rosidl_generator_py.so[0m
+[7.756s] [ 80%] Built target warehouse_robot_msgs__rosidl_generator_py
+[7.781s] [ 83%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.781s] [ 87%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.782s] [ 90%] [32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.888s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.889s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.889s] [100%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.939s] [100%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.939s] [100%] Built target warehouse_robot_msgs__rosidl_typesupport_c__pyext
+[7.939s] [100%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c__pyext
+[7.953s] Invoked command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/warehouse_robot_msgs -- -j8 -l8
+[8.052s] Invoking command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/warehouse_robot_msgs
+[8.062s] -- Install configuration: ""
+[8.062s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/warehouse_robot_msgs
+[8.062s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.062s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.062s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/robot_data.h
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__struct.h
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__functions.c
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__functions.h
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.h
+[8.063s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/library_path.sh
+[8.064s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/library_path.dsv
+[8.064s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_c.so
+[8.064s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_c.so" to ""
+[8.064s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.064s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.065s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.065s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.065s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_fastrtps_c.h
+[8.065s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so
+[8.065s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.065s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.066s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.066s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/robot_data.hpp
+[8.066s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.066s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__builder.hpp
+[8.066s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__struct.hpp
+[8.066s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__traits.hpp
+[8.066s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.067s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.067s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.067s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.067s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/dds_fastrtps
+[8.067s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_fastrtps_cpp.hpp
+[8.067s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.067s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.067s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.068s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.068s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.068s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.068s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_introspection_c.h
+[8.068s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.c
+[8.068s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so
+[8.068s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.069s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_c.so
+[8.069s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_c.so" to ""
+[8.069s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs
+[8.069s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg
+[8.069s] -- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail
+[8.070s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.cpp
+[8.070s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_introspection_cpp.hpp
+[8.070s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so
+[8.070s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.070s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_cpp.so
+[8.070s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_cpp.so" to ""
+[8.071s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/pythonpath.sh
+[8.071s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/pythonpath.dsv
+[8.071s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info
+[8.071s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.071s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data.py
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/__init__.py
+[8.072s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data_s.c
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_c.c
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/__init__.py
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.073s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/libwarehouse_robot_msgs__rosidl_generator_py.so
+[8.074s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.111s] Listing '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs'...
+[8.112s] Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/__init__.py'...
+[8.112s] Listing '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg'...
+[8.112s] Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/__init__.py'...
+[8.112s] Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data.py'...
+[8.116s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.116s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.116s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.117s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.117s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.118s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.118s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_py.so
+[8.118s] -- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_py.so" to ""
+[8.118s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/msg/RobotData.idl
+[8.119s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/msg/RobotData.msg
+[8.119s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/package_run_dependencies/warehouse_robot_msgs
+[8.119s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/parent_prefix_path/warehouse_robot_msgs
+[8.119s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/ament_prefix_path.sh
+[8.119s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/ament_prefix_path.dsv
+[8.120s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/path.sh
+[8.120s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/path.dsv
+[8.120s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.bash
+[8.120s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.sh
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.zsh
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.dsv
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/package.dsv
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/packages/warehouse_robot_msgs
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cExport.cmake
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.121s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cppExport.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.122s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cExport.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cppExport.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.123s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_pyExport.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake-extras.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.124s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.125s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.125s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.125s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgsConfig.cmake
+[8.125s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgsConfig-version.cmake
+[8.125s] -- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/package.xml
+[8.128s] Invoked command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/warehouse_robot_msgs

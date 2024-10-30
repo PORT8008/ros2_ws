@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/lib/map_ground_truth_publisher/map_publisher_node
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/package_run_dependencies/map_ground_truth_publisher
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/parent_prefix_path/map_ground_truth_publisher
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.sh
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.dsv
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.bash
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.sh
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.zsh
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.dsv
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.dsv
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/packages/map_ground_truth_publisher
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig.cmake
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig-version.cmake
+/home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.xml

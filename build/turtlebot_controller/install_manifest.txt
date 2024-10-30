@@ -1,0 +1,17 @@
+/home/student/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller/turtlebot_controller
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller//launch/turtlebot_controller_launch.py
+/home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller
+/home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv
+/home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake
+/home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml

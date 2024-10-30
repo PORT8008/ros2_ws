@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target map_publisher_node[0m
+[100%] Built target map_publisher_node
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/lib/map_ground_truth_publisher/map_publisher_node
+-- Set runtime path of "/home/student/ros2_ws/src/install/map_ground_truth_publisher/lib/map_ground_truth_publisher/map_publisher_node" to ""
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/package_run_dependencies/map_ground_truth_publisher
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/parent_prefix_path/map_ground_truth_publisher
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.sh
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/environment/path.dsv
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.bash
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.sh
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.zsh
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/local_setup.dsv
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.dsv
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/ament_index/resource_index/packages/map_ground_truth_publisher
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig.cmake
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/cmake/map_ground_truth_publisherConfig-version.cmake
+-- Installing: /home/student/ros2_ws/src/install/map_ground_truth_publisher/share/map_ground_truth_publisher/package.xml

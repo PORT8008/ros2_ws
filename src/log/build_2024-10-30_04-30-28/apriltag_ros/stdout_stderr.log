@@ -1,0 +1,15 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/tags.dir/src/tag_functions.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/conversion.dir/src/conversion.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library libtags.a[0m
+[ 40%] Built target tags
+[ 50%] [32m[1mLinking CXX static library libconversion.a[0m
+[ 50%] Built target conversion
+[ 60%] [32mBuilding CXX object CMakeFiles/pose_estimation.dir/src/pose_estimation.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable apriltag_node[0m
+[ 70%] Built target apriltag_node
+[ 80%] [32m[1mLinking CXX static library libpose_estimation.a[0m
+[ 80%] Built target pose_estimation
+[ 90%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libAprilTagNode.so[0m
+[100%] Built target AprilTagNode

@@ -1,0 +1,4 @@
+[0.016s] Invoking command in '/home/student/ros2_ws/src/build/map_ground_truth_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/map_ground_truth_publisher -- -j8 -l8
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/map_publisher_node.dir/src/map_publisher_node.cpp.o[0m
+[8.679s] [100%] [32m[1mLinking CXX executable map_publisher_node[0m
+[10.453s] [100%] Built target map_publisher_node

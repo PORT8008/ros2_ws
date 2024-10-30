@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator.dir/src/gazbeo_map_creator.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgazebo_map_creator.so[0m
+[100%] Built target gazebo_map_creator
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.sh
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.dsv
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/scripts
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/scripts/request_map.py
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/lib/libgazebo_map_creator.so
+-- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator/lib/libgazebo_map_creator.so" to ""
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/lib/gazebo_map_creator/request_map.py
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.dsv
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.bash
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.sh
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/package.dsv
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/ament_index/resource_index/packages/gazebo_map_creator
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig.cmake
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig-version.cmake
+-- Installing: /home/student/ros2_ws/install/gazebo_map_creator/share/gazebo_map_creator/package.xml

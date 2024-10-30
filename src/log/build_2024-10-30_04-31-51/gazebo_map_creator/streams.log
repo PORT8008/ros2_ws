@@ -1,0 +1,207 @@
+[0.021s] Invoking command in '/home/student/ros2_ws/src/build/gazebo_map_creator': AMENT_PREFIX_PATH=/home/student/ros2_ws/src/install/gazebo_map_creator_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/src/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/src/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/home/student/ros2_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/student/ros2_ws/src/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/student/ros2_ws/src/gazebo_map_creator/gazebo_map_creator -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/gazebo_map_creator
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.580s] -- Detecting CXX compile features
+[0.581s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.995s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.213s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.358s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.372s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.394s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.581s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.610s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.612s] -- Checking for module 'bullet>=2.82'
+[1.648s] --   Found bullet, version 3.05
+[1.968s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.117s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.223s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.784s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.836s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.857s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.885s] -- Searching for dependencies of ignition-math6
+[2.885s] -- Looking for OGRE...
+[2.886s] -- OGRE_PREFIX_WATCH changed.
+[2.901s] -- Checking for module 'OGRE'
+[2.936s] --   Found OGRE, version 1.9.0
+[3.017s] -- Found Ogre Ghadamon (1.9.0)
+[3.068s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.097s] -- Looking for OGRE_Paging...
+[3.114s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.114s] -- Looking for OGRE_Terrain...
+[3.131s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.131s] -- Looking for OGRE_Property...
+[3.142s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.142s] -- Looking for OGRE_RTShaderSystem...
+[3.155s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.156s] -- Looking for OGRE_Volume...
+[3.169s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.169s] -- Looking for OGRE_Overlay...
+[3.188s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.502s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.508s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.509s] -- Searching for dependencies of ignition-transport8
+[3.548s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.585s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.604s] -- Checking for module 'libzmq >= 4'
+[3.642s] --   Found libzmq , version 4.3.4
+[3.754s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.767s] -- Checking for module 'uuid'
+[3.815s] --   Found uuid, version 2.37.2
+[3.894s] -- Found UUID: TRUE  
+[3.907s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.908s] -- Searching for dependencies of ignition-msgs5
+[3.958s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.967s] -- Checking for module 'tinyxml2'
+[3.990s] --   Found tinyxml2, version 9.0.0
+[4.077s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.086s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.089s] -- Searching for dependencies of ignition-common3
+[4.089s] -- Looking for dlfcn.h - found
+[4.094s] -- Looking for libdl - found
+[4.096s] -- Found DL: TRUE  
+[4.148s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.156s] -- Searching for <ignition-common3> component [graphics]
+[4.164s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.165s] -- Searching for dependencies of ignition-common3-graphics
+[4.165s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.180s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.183s] -- Searching for dependencies of ignition-fuel_tools4
+[4.405s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.430s] -- Checking for module 'jsoncpp'
+[4.469s] --   Found jsoncpp, version 1.9.5
+[4.563s] -- Found JSONCPP: TRUE  
+[4.588s] -- Checking for module 'libzip'
+[4.630s] --   Found libzip, version 1.7.3
+[4.717s] -- Found ZIP: TRUE  
+[4.717s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.718s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.718s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.739s] -- Gazebo version: 11.10
+[4.739s] -- Checking for module 'tbb'
+[4.780s] --   Found tbb, version 2021.5.0
+[4.878s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[5.077s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.087s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.295s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.387s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.569s] -- Found Threads: TRUE  
+[5.689s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.716s] -- Found gazebo_map_creator_interface: 3.5.3 (/home/student/ros2_ws/src/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake)
+[5.760s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[5.838s] -- Checking for module 'eigen3'
+[5.879s] --   Found eigen3, version 3.4.0
+[5.966s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.969s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.003s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.059s] -- Checking for module 'flann'
+[6.115s] --   Found flann, version 1.9.1
+[6.248s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.248s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.421s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[6.466s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[7.061s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[7.061s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[7.072s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[7.120s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[7.203s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[7.328s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[7.582s] -- Found X11: /usr/include   
+[7.583s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.715s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.716s] -- Looking for gethostbyname
+[7.847s] -- Looking for gethostbyname - found
+[7.847s] -- Looking for connect
+[7.970s] -- Looking for connect - found
+[7.970s] -- Looking for remove
+[8.070s] -- Looking for remove - found
+[8.071s] -- Looking for shmat
+[8.159s] -- Looking for shmat - found
+[8.159s] -- Looking for IceConnectionNumber in ICE
+[8.258s] -- Looking for IceConnectionNumber in ICE - found
+[8.385s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[8.392s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[8.399s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[8.408s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[8.640s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[8.671s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[8.680s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[8.688s] -- Found utf8cpp: /usr/include/utf8cpp  
+[8.860s] -- Checking for module 'libusb-1.0'
+[8.887s] --   Found libusb-1.0, version 1.0.25
+[8.946s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.949s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.949s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.049s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[9.051s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.051s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.305s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.316s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.327s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.615s] -- Found Qhull version 8.0.2
+[9.907s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.186s] -- looking for PCL_COMMON
+[10.188s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.188s] -- looking for PCL_KDTREE
+[10.190s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.190s] -- looking for PCL_OCTREE
+[10.191s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.192s] -- looking for PCL_SEARCH
+[10.193s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.194s] -- looking for PCL_SAMPLE_CONSENSUS
+[10.195s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.195s] -- looking for PCL_FILTERS
+[10.197s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.197s] -- looking for PCL_2D
+[10.198s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.198s] -- looking for PCL_GEOMETRY
+[10.198s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.199s] -- looking for PCL_IO
+[10.200s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.200s] -- looking for PCL_FEATURES
+[10.202s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.202s] -- looking for PCL_ML
+[10.204s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.204s] -- looking for PCL_SEGMENTATION
+[10.206s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.206s] -- looking for PCL_VISUALIZATION
+[10.208s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.208s] -- looking for PCL_SURFACE
+[10.210s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.210s] -- looking for PCL_REGISTRATION
+[10.212s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.212s] -- looking for PCL_KEYPOINTS
+[10.214s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.214s] -- looking for PCL_TRACKING
+[10.215s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.216s] -- looking for PCL_RECOGNITION
+[10.217s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.218s] -- looking for PCL_STEREO
+[10.219s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.220s] -- looking for PCL_APPS
+[10.221s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.225s] -- looking for PCL_IN_HAND_SCANNER
+[10.226s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.226s] -- looking for PCL_MODELER
+[10.226s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.226s] -- looking for PCL_POINT_CLOUD_EDITOR
+[10.226s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.226s] -- looking for PCL_OUTOFCORE
+[10.226s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.227s] -- looking for PCL_PEOPLE
+[10.228s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.230s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") 
+[10.367s] -- Configuring done
+[10.771s] -- Generating done
+[10.777s] -- Build files have been written to: /home/student/ros2_ws/src/build/gazebo_map_creator

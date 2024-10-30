@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findwarehouse_robot_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "warehouse_robot_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "warehouse_robot_msgs" with any of the following names:
+
+    warehouse_robot_msgsConfig.cmake
+    warehouse_robot_msgs-config.cmake
+
+  Add the installation prefix of "warehouse_robot_msgs" to CMAKE_PREFIX_PATH
+  or set "warehouse_robot_msgs_DIR" to a directory containing one of the
+  above files.  If "warehouse_robot_msgs" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

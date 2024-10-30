@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000700] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000757] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000791] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000821] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000850] (-) JobUnselected: {'identifier': 'gazebo_map_creator'}
+[0.000879] (-) JobUnselected: {'identifier': 'gazebo_map_creator_interface'}
+[0.000907] (-) JobUnselected: {'identifier': 'global_controller_single_robot'}
+[0.000939] (-) JobUnselected: {'identifier': 'map_ground_truth_publisher'}
+[0.000967] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000995] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001039] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001275] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001304] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001330] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001356] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001381] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001423] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001450] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001479] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001507] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001535] (-) JobUnselected: {'identifier': 'turtlebot_controller'}
+[0.001566] (warehouse_robot_msgs) JobQueued: {'identifier': 'warehouse_robot_msgs', 'dependencies': OrderedDict()}
+[0.001599] (warehouse_robot_msgs) JobStarted: {'identifier': 'warehouse_robot_msgs'}
+[0.017414] (warehouse_robot_msgs) JobProgress: {'identifier': 'warehouse_robot_msgs', 'progress': 'cmake'}
+[0.017627] (warehouse_robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/student/ros2_ws/src/warehouse_robot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/warehouse_robot_msgs'], 'cwd': '/home/student/ros2_ws/src/build/warehouse_robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2024'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/home/student/ros2_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2136'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2113,unix/labMGJSX0:/tmp/.ICE-unix/2113'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e94e958_1f47_4f3e_aeac_b7933951c413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/warehouse_robot_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099544] (-) TimerEvent: {}
+[0.199913] (-) TimerEvent: {}
+[0.300296] (-) TimerEvent: {}
+[0.400770] (-) TimerEvent: {}
+[0.501138] (-) TimerEvent: {}
+[0.601491] (-) TimerEvent: {}
+[0.701839] (-) TimerEvent: {}
+[0.802244] (-) TimerEvent: {}
+[0.877208] (warehouse_robot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.902441] (-) TimerEvent: {}
+[1.002784] (-) TimerEvent: {}
+[1.103190] (-) TimerEvent: {}
+[1.203540] (-) TimerEvent: {}
+[1.303953] (-) TimerEvent: {}
+[1.402467] (warehouse_robot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.404043] (-) TimerEvent: {}
+[1.435753] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504171] (-) TimerEvent: {}
+[1.581253] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.588925] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.589363] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.592800] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.596375] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.604267] (-) TimerEvent: {}
+[1.704571] (-) TimerEvent: {}
+[1.719357] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.730196] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.730442] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.730892] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.782678] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.804701] (-) TimerEvent: {}
+[1.905076] (-) TimerEvent: {}
+[1.983672] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.005184] (-) TimerEvent: {}
+[2.105504] (-) TimerEvent: {}
+[2.205819] (-) TimerEvent: {}
+[2.243100] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.306017] (-) TimerEvent: {}
+[2.406469] (-) TimerEvent: {}
+[2.422654] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.453490] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.493225] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.506678] (-) TimerEvent: {}
+[2.564768] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.606866] (-) TimerEvent: {}
+[2.637883] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.707080] (-) TimerEvent: {}
+[2.807501] (-) TimerEvent: {}
+[2.853906] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.871091] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.907635] (-) TimerEvent: {}
+[3.008080] (-) TimerEvent: {}
+[3.108430] (-) TimerEvent: {}
+[3.115226] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.151580] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.202248] (warehouse_robot_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.208597] (-) TimerEvent: {}
+[3.265328] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.308741] (-) TimerEvent: {}
+[3.409127] (-) TimerEvent: {}
+[3.432981] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.433591] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.509244] (-) TimerEvent: {}
+[3.526582] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.527795] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.609376] (-) TimerEvent: {}
+[3.699759] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.709587] (-) TimerEvent: {}
+[3.794134] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.809754] (-) TimerEvent: {}
+[3.910090] (-) TimerEvent: {}
+[4.010485] (-) TimerEvent: {}
+[4.110886] (-) TimerEvent: {}
+[4.196038] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.211062] (-) TimerEvent: {}
+[4.311363] (-) TimerEvent: {}
+[4.411776] (-) TimerEvent: {}
+[4.512212] (-) TimerEvent: {}
+[4.612678] (-) TimerEvent: {}
+[4.713081] (-) TimerEvent: {}
+[4.777890] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.813281] (-) TimerEvent: {}
+[4.913709] (-) TimerEvent: {}
+[4.969855] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.996853] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.007608] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.013859] (-) TimerEvent: {}
+[5.055112] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.055343] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.055428] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.055495] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.079619] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.114063] (-) TimerEvent: {}
+[5.181731] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.214263] (-) TimerEvent: {}
+[5.241323] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.245111] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/src/build/warehouse_robot_msgs\n'}
+[5.259905] (warehouse_robot_msgs) CommandEnded: {'returncode': 0}
+[5.260693] (warehouse_robot_msgs) JobProgress: {'identifier': 'warehouse_robot_msgs', 'progress': 'build'}
+[5.262073] (warehouse_robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/build/warehouse_robot_msgs', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/build/warehouse_robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2024'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/home/student/ros2_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2136'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2113,unix/labMGJSX0:/tmp/.ICE-unix/2113'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e94e958_1f47_4f3e_aeac_b7933951c413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/warehouse_robot_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[5.314376] (-) TimerEvent: {}
+[5.316318] (warehouse_robot_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.328342] (warehouse_robot_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.338354] (warehouse_robot_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_warehouse_robot_msgs\n'}
+[5.414499] (-) TimerEvent: {}
+[5.514922] (-) TimerEvent: {}
+[5.615337] (-) TimerEvent: {}
+[5.629587] (warehouse_robot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.630158] (warehouse_robot_msgs) StdoutLine: {'line': b'creating warehouse_robot_msgs.egg-info\n'}
+[5.630386] (warehouse_robot_msgs) StdoutLine: {'line': b'writing warehouse_robot_msgs.egg-info/PKG-INFO\n'}
+[5.630612] (warehouse_robot_msgs) StdoutLine: {'line': b'writing dependency_links to warehouse_robot_msgs.egg-info/dependency_links.txt\n'}
+[5.630804] (warehouse_robot_msgs) StdoutLine: {'line': b'writing top-level names to warehouse_robot_msgs.egg-info/top_level.txt\n'}
+[5.631126] (warehouse_robot_msgs) StdoutLine: {'line': b"writing manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'\n"}
+[5.638148] (warehouse_robot_msgs) StdoutLine: {'line': b"reading manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'\n"}
+[5.638654] (warehouse_robot_msgs) StdoutLine: {'line': b"writing manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'\n"}
+[5.673840] (warehouse_robot_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_warehouse_robot_msgs_egg\n'}
+[5.675906] (warehouse_robot_msgs) StdoutLine: {'line': b'[  6%] Built target warehouse_robot_msgs__cpp\n'}
+[5.688456] (warehouse_robot_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.688967] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.689295] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.690289] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/warehouse_robot_msgs/msg/detail/robot_data__functions.c.o\x1b[0m\n'}
+[5.715441] (-) TimerEvent: {}
+[5.815828] (-) TimerEvent: {}
+[5.916151] (-) TimerEvent: {}
+[5.960664] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_robot_msgs/msg/robot_data__type_support.cpp.o\x1b[0m\n'}
+[5.962814] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libwarehouse_robot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.977501] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_robot_msgs/msg/detail/robot_data__type_support.cpp.o\x1b[0m\n'}
+[5.999925] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_robot_msgs/msg/detail/dds_fastrtps/robot_data__type_support.cpp.o\x1b[0m\n'}
+[6.016354] (-) TimerEvent: {}
+[6.042291] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 32%] Built target warehouse_robot_msgs__rosidl_generator_c\n'}
+[6.057442] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.057765] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.057851] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.116481] (-) TimerEvent: {}
+[6.216862] (-) TimerEvent: {}
+[6.317204] (-) TimerEvent: {}
+[6.364186] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_robot_msgs/msg/robot_data__type_support.cpp.o\x1b[0m\n'}
+[6.414491] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_robot_msgs/msg/detail/robot_data__type_support.c.o\x1b[0m\n'}
+[6.417310] (-) TimerEvent: {}
+[6.417594] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.454187] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_robot_msgs/msg/detail/robot_data__type_support_c.cpp.o\x1b[0m\n'}
+[6.472337] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.503176] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 58%] Built target warehouse_robot_msgs__rosidl_typesupport_c\n'}
+[6.509146] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.517445] (-) TimerEvent: {}
+[6.530626] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 61%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c\n'}
+[6.569528] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 61%] Built target warehouse_robot_msgs__rosidl_typesupport_cpp\n'}
+[6.617633] (-) TimerEvent: {}
+[6.684897] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.696502] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.717781] (-) TimerEvent: {}
+[6.792743] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 67%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.803221] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 67%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.817858] (-) TimerEvent: {}
+[6.818316] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.914513] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 70%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.917963] (-) TimerEvent: {}
+[6.942284] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 70%] Built target warehouse_robot_msgs\n'}
+[6.968656] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.018097] (-) TimerEvent: {}
+[7.118508] (-) TimerEvent: {}
+[7.218866] (-) TimerEvent: {}
+[7.319302] (-) TimerEvent: {}
+[7.369251] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 74%] Built target warehouse_robot_msgs__py\n'}
+[7.395364] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/warehouse_robot_msgs/msg/_robot_data_s.c.o\x1b[0m\n'}
+[7.419426] (-) TimerEvent: {}
+[7.519860] (-) TimerEvent: {}
+[7.620373] (-) TimerEvent: {}
+[7.679074] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/libwarehouse_robot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.720569] (-) TimerEvent: {}
+[7.756993] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 80%] Built target warehouse_robot_msgs__rosidl_generator_py\n'}
+[7.782375] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.782840] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.783103] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.820706] (-) TimerEvent: {}
+[7.889809] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.890571] (warehouse_robot_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.890790] (warehouse_robot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.920825] (-) TimerEvent: {}
+[7.940088] (warehouse_robot_msgs) StdoutLine: {'line': b'[100%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.940374] (warehouse_robot_msgs) StdoutLine: {'line': b'[100%] Built target warehouse_robot_msgs__rosidl_typesupport_c__pyext\n'}
+[7.940664] (warehouse_robot_msgs) StdoutLine: {'line': b'[100%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.954154] (warehouse_robot_msgs) CommandEnded: {'returncode': 0}
+[8.020962] (-) TimerEvent: {}
+[8.040562] (warehouse_robot_msgs) JobProgress: {'identifier': 'warehouse_robot_msgs', 'progress': 'install'}
+[8.052204] (warehouse_robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/src/build/warehouse_robot_msgs'], 'cwd': '/home/student/ros2_ws/src/build/warehouse_robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2024'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/home/student/ros2_ws/install/apriltag_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2136'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2113,unix/labMGJSX0:/tmp/.ICE-unix/2113'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e94e958_1f47_4f3e_aeac_b7933951c413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/warehouse_robot_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/map_ground_truth_publisher:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/apriltag_ros:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[8.062956] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.063282] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/warehouse_robot_msgs\n'}
+[8.063487] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.063657] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.063856] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/robot_data.h\n'}
+[8.063992] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.064236] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.064351] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__struct.h\n'}
+[8.064466] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__functions.c\n'}
+[8.064627] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__functions.h\n'}
+[8.064741] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.h\n'}
+[8.064906] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/library_path.sh\n'}
+[8.065105] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/library_path.dsv\n'}
+[8.065286] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_c.so\n'}
+[8.065665] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_c.so" to ""\n'}
+[8.065879] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.065997] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.066122] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.066326] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.066433] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_fastrtps_c.h\n'}
+[8.066537] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.066739] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.066927] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.067042] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.067152] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/robot_data.hpp\n'}
+[8.067343] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.067501] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__builder.hpp\n'}
+[8.067595] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__struct.hpp\n'}
+[8.067694] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__traits.hpp\n'}
+[8.067897] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.068011] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.068190] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.068303] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.068413] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/dds_fastrtps\n'}
+[8.068508] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.068657] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.068842] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.069001] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.069134] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.069248] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.069427] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.069562] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_introspection_c.h\n'}
+[8.069658] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.c\n'}
+[8.069743] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.069888] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.070043] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_c.so\n'}
+[8.070485] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.070703] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs\n'}
+[8.070823] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg\n'}
+[8.070933] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail\n'}
+[8.071049] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__type_support.cpp\n'}
+[8.071230] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/include/warehouse_robot_msgs/warehouse_robot_msgs/msg/detail/robot_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.071390] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.071536] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.071686] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_cpp.so\n'}
+[8.072001] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.072197] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/pythonpath.sh\n'}
+[8.072370] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/pythonpath.dsv\n'}
+[8.072537] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info\n'}
+[8.072726] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.072942] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.073121] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.073238] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.073408] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs\n'}
+[8.073545] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg\n'}
+[8.073649] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data.py\n'}
+[8.073839] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/__init__.py\n'}
+[8.073965] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data_s.c\n'}
+[8.074133] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.074250] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/__init__.py\n'}
+[8.074437] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.074594] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.074730] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.074873] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.074979] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/libwarehouse_robot_msgs__rosidl_generator_py.so\n'}
+[8.075168] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/_warehouse_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.112739] (warehouse_robot_msgs) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs'...\n"}
+[8.112996] (warehouse_robot_msgs) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/__init__.py'...\n"}
+[8.113172] (warehouse_robot_msgs) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg'...\n"}
+[8.113297] (warehouse_robot_msgs) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/__init__.py'...\n"}
+[8.113413] (warehouse_robot_msgs) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/msg/_robot_data.py'...\n"}
+[8.117214] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.117692] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.117968] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.118474] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.118746] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.119242] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/local/lib/python3.10/dist-packages/warehouse_robot_msgs/warehouse_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.119380] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_py.so\n'}
+[8.119826] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/install/warehouse_robot_msgs/lib/libwarehouse_robot_msgs__rosidl_generator_py.so" to ""\n'}
+[8.119958] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/msg/RobotData.idl\n'}
+[8.120158] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/msg/RobotData.msg\n'}
+[8.120405] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/package_run_dependencies/warehouse_robot_msgs\n'}
+[8.120639] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/parent_prefix_path/warehouse_robot_msgs\n'}
+[8.120829] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/ament_prefix_path.sh\n'}
+[8.121016] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/ament_prefix_path.dsv\n'}
+[8.121110] (-) TimerEvent: {}
+[8.121325] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/path.sh\n'}
+[8.121550] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/environment/path.dsv\n'}
+[8.121727] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.bash\n'}
+[8.121891] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.sh\n'}
+[8.122053] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.zsh\n'}
+[8.122205] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/local_setup.dsv\n'}
+[8.122317] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/package.dsv\n'}
+[8.122461] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/ament_index/resource_index/packages/warehouse_robot_msgs\n'}
+[8.122622] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cExport.cmake\n'}
+[8.122776] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.122936] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.123098] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.123256] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.123411] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.123563] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.123740] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.123898] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.124072] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.124222] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.124363] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.124517] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.124673] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.124846] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.125001] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.125184] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/export_warehouse_robot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.125344] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.125499] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.125658] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.125804] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.125935] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.126058] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.126180] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.126325] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgsConfig.cmake\n'}
+[8.126479] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/cmake/warehouse_robot_msgsConfig-version.cmake\n'}
+[8.126608] (warehouse_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/install/warehouse_robot_msgs/share/warehouse_robot_msgs/package.xml\n'}
+[8.128935] (warehouse_robot_msgs) CommandEnded: {'returncode': 0}
+[8.221216] (-) TimerEvent: {}
+[8.261903] (warehouse_robot_msgs) JobEnded: {'identifier': 'warehouse_robot_msgs', 'rc': 0}
+[8.262645] (-) EventReactorShutdown: {}

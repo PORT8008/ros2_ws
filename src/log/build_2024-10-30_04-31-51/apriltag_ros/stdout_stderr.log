@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target apriltag_node[0m
+[35m[1mConsolidate compiler generated dependencies of target conversion[0m
+[35m[1mConsolidate compiler generated dependencies of target tags[0m
+[ 20%] Built target tags
+[ 40%] Built target conversion
+[ 60%] Built target apriltag_node
+[35m[1mConsolidate compiler generated dependencies of target pose_estimation[0m
+[ 80%] Built target pose_estimation
+[35m[1mConsolidate compiler generated dependencies of target AprilTagNode[0m
+[100%] Built target AprilTagNode
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+-- Set runtime path of "/home/student/ros2_ws/src/install/apriltag_ros/lib/apriltag_ros/apriltag_node" to ""
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/lib/libAprilTagNode.so
+-- Set runtime path of "/home/student/ros2_ws/src/install/apriltag_ros/lib/libAprilTagNode.so" to ""
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/cfg
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/launch
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/launch/v4l2_36h11.launch.yml
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/package.dsv
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+-- Installing: /home/student/ros2_ws/src/install/apriltag_ros/share/apriltag_ros/package.xml

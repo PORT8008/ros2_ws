@@ -1,0 +1,57 @@
+[0.034s] Invoking command in '/home/student/ros2_ws/src/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/turtlebot_controller -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/turtlebot_controller
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.352s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.581s] -- Detecting C compile features - done
+[0.591s] -- Detecting CXX compiler ABI info
+[0.784s] -- Detecting CXX compiler ABI info - done
+[0.800s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.800s] -- Detecting CXX compile features
+[0.801s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.189s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.376s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.480s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.492s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.512s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.684s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.692s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.862s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.916s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.040s] -- Looking for pthread.h
+[2.205s] -- Looking for pthread.h - found
+[2.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.334s] -- Found Threads: TRUE  
+[2.447s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.473s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.510s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.552s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.578s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.580s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.580s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.760s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[2.760s]   By not providing "Findwarehouse_robot_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.760s]   project has asked CMake to find a package configuration file provided by
+[2.760s]   "warehouse_robot_msgs", but CMake did not find one.
+[2.760s] 
+[2.760s]   Could not find a package configuration file provided by
+[2.760s]   "warehouse_robot_msgs" with any of the following names:
+[2.760s] 
+[2.761s]     warehouse_robot_msgsConfig.cmake
+[2.761s]     warehouse_robot_msgs-config.cmake
+[2.761s] 
+[2.761s]   Add the installation prefix of "warehouse_robot_msgs" to CMAKE_PREFIX_PATH
+[2.761s]   or set "warehouse_robot_msgs_DIR" to a directory containing one of the
+[2.761s]   above files.  If "warehouse_robot_msgs" provides a separate development
+[2.761s]   package or SDK, be sure it has been installed.
+[2.761s] 
+[2.761s] [0m
+[2.761s] -- Configuring incomplete, errors occurred!
+[2.762s] See also "/home/student/ros2_ws/src/build/turtlebot_controller/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,10 @@
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/turtlebot_controller_uninstall.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/turtlebot_controller.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/test.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/install.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/turtlebot_controller/CMakeFiles/install/strip.dir

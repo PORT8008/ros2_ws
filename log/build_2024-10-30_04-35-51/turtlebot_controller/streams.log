@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/home/student/ros2_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot_controller -- -j8 -l8
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_controller[0m
+[0.203s] [100%] Built target turtlebot_controller
+[0.270s] Invoked command in '/home/student/ros2_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot_controller -- -j8 -l8
+[0.466s] Invoking command in '/home/student/ros2_ws/build/turtlebot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot_controller
+[0.467s] -- Install configuration: ""
+[0.467s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller/turtlebot_controller
+[0.484s] -- Set runtime path of "/home/student/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller/turtlebot_controller" to ""
+[0.491s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller//launch
+[0.492s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller//launch/turtlebot_controller_launch.py
+[0.492s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot_controller
+[0.492s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot_controller
+[0.492s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.sh
+[0.492s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/ament_prefix_path.dsv
+[0.493s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.sh
+[0.493s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/environment/path.dsv
+[0.493s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.bash
+[0.493s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.sh
+[0.494s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.zsh
+[0.494s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/local_setup.dsv
+[0.495s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.dsv
+[0.495s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/ament_index/resource_index/packages/turtlebot_controller
+[0.495s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig.cmake
+[0.495s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/cmake/turtlebot_controllerConfig-version.cmake
+[0.496s] -- Installing: /home/student/ros2_ws/install/turtlebot_controller/share/turtlebot_controller/package.xml
+[0.539s] Invoked command in '/home/student/ros2_ws/build/turtlebot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot_controller

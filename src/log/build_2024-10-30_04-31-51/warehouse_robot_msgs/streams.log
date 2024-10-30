@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/warehouse_robot_msgs -- -j8 -l8
+[0.145s] [  3%] Built target warehouse_robot_msgs__cpp
+[0.153s] [ 12%] Built target warehouse_robot_msgs__rosidl_generator_c
+[0.158s] [ 12%] Built target ament_cmake_python_copy_warehouse_robot_msgs
+[0.204s] [ 22%] Built target warehouse_robot_msgs__rosidl_typesupport_cpp
+[0.213s] [ 32%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c
+[0.213s] [ 41%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.213s] [ 51%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_cpp
+[0.214s] [ 61%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c
+[0.217s] [ 70%] Built target warehouse_robot_msgs__rosidl_typesupport_c
+[0.254s] [ 70%] Built target warehouse_robot_msgs
+[0.298s] [ 74%] Built target warehouse_robot_msgs__py
+[0.340s] [ 80%] Built target warehouse_robot_msgs__rosidl_generator_py
+[0.405s] [ 87%] Built target warehouse_robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.408s] [ 93%] Built target warehouse_robot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.410s] [100%] Built target warehouse_robot_msgs__rosidl_typesupport_c__pyext
+[0.635s] running egg_info
+[0.644s] writing warehouse_robot_msgs.egg-info/PKG-INFO
+[0.644s] writing dependency_links to warehouse_robot_msgs.egg-info/dependency_links.txt
+[0.644s] writing top-level names to warehouse_robot_msgs.egg-info/top_level.txt
+[0.644s] reading manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'
+[0.644s] writing manifest file 'warehouse_robot_msgs.egg-info/SOURCES.txt'
+[0.698s] [100%] Built target ament_cmake_python_build_warehouse_robot_msgs_egg
+[1.290s] Invoked command in '/home/student/ros2_ws/src/build/warehouse_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/warehouse_robot_msgs -- -j8 -l8
